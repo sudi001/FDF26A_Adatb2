@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8"/>
+<title>Raktárkészlet nyilvántartó</title>
+</head>
+<body>
+<div align="center">
+    <h1>Termékek listája</h1>
+    <a href="new">Új termék létrehozása</a>
+    <br/><br/>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Azonosítószám</th>
+                <th>Név</th>
+                <th>Gyártmány</th>
+                <th>Gyártás éve</th>
+                <th>Ár</th>
+                <th>Műveletek</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="product : ${listProducts}">
+            	<td th:text="${product.id}">Azonosítószám</td>
+                <td th:text="${product.name}">Név</td>
+                <td th:text="${product.brand}">Gyártmány</td>
+                <td th:text="${product.madein}">Gyártás éve</td>
+                <td th:text="${product.price}">Ár</td>
+                <td>
+                	<a th:href="@{'/edit/' + ${product.id}}">Szerkesztés</a>
+                	&nbsp;&nbsp;&nbsp;
+                	<a th:href="@{'/delete/' + ${product.id}}">Törlés</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>    
+</body>
+</html>
