@@ -1,9 +1,19 @@
-CREATE OR REPLACE TRIGGER check_price
+SET SERVEROUTPUT ON;
+
+CREATE OR REPLACE TRIGGER check_price_trigger
   BEFORE INSERT ON "product"
   FOR EACH ROW
+declare
+result NUMBER;
+newprice NUMBER;
 BEGIN
-  IF :new."price" < '0' THEN
-    RAISE_APPLICATION_ERROR (-20000, 'Nem lehet negatív egy termék ára.');
+  newprice := :new."price";
+  result := check_price_function(newprice);
+  
+  IF result <> 0
+  THEN
+    DBMS_OUTPUT.PUT_LINE ('Az alábbi érték helyes: ' || newprice);
+  ELSE 
+    RAISE_APPLICATION_ERROR (-20000, 'Az alábbi érték helytelen: ' || newprice);
   END IF;
 END;
-

@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+import org.hibernate.exception.GenericJDBCException;
 
 @Controller
 public class AppController {
@@ -37,7 +38,11 @@ public class AppController {
 	
 	@RequestMapping(value = "/save", method = RequestMethod.POST)
 	public String saveProduct(@ModelAttribute("product") Product product) {
-		service.save(product);
+		try{
+                    service.save(product);
+                }catch(Exception e){
+                    return "errorpage";
+                }
 		
 		return "redirect:/";
 	}

@@ -1,8 +1,11 @@
+-- Meglévõ adatszerkezetek törlése.
 DROP TABLE "DB_ADMIN"."product";
-
 DROP SEQUENCE USERSEQ;
+
+-- Szekvencia létrehozása a termék ID-jához.
 CREATE SEQUENCE USERSEQ INCREMENT BY 1 START WITH 2;
 
+-- Tábla létrehozása
 CREATE TABLE "product" (
   "id" int NOT NULL,
   "name" varchar(45) NOT NULL,
@@ -12,10 +15,15 @@ CREATE TABLE "product" (
   CONSTRAINT product_primary_key PRIMARY KEY ("id")
 );
 
-SELECT * FROM "DB_ADMIN"."product";
+--SELECT * FROM "DB_ADMIN"."product";
 
-DESCRIBE "DB_ADMIN"."product";
+--DESCRIBE "DB_ADMIN"."product";
 
+-- Példa adat beszúrása.
 INSERT INTO "DB_ADMIN"."product" ("id", "name", "brand", "price", "madein") VALUES ('1', 'Example', 'Example2', '333', '1000');
+
+-- Ellenõrzõ trigger létrehozása
+
+
 
 COMMIT;
