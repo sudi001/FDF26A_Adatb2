@@ -7,7 +7,7 @@ deterministic
 as
 year_num NUMBER;
 BEGIN 
-  year_number := to_number(year_);
+  year_num := to_number(year_);
   IF year_ > 2020 THEN
     RETURN 1;
   END IF;

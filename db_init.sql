@@ -12,7 +12,8 @@ CREATE TABLE "product" (
   "brand" varchar(45) NOT NULL,
   "price" int NOT NULL,
   "madein" varchar(45) NOT NULL,
-  CONSTRAINT product_primary_key PRIMARY KEY ("id")
+  CONSTRAINT product_primary_key PRIMARY KEY ("id"),
+  CONSTRAINT check_brand_name CHECK ("brand" IN ('IBM', 'Microsoft', 'NVIDIA'))
 );
 
 --SELECT * FROM "DB_ADMIN"."product";
@@ -20,7 +21,7 @@ CREATE TABLE "product" (
 --DESCRIBE "DB_ADMIN"."product";
 
 -- Példa adat beszúrása.
-INSERT INTO "DB_ADMIN"."product" ("id", "name", "brand", "price", "madein") VALUES ('1', 'Example', 'Example2', '333', '1000');
+INSERT INTO "DB_ADMIN"."product" ("id", "name", "brand", "price", "madein") VALUES ('1', 'Example', 'NVIDIA', '333', '1000');
 
 -- Ellenõrzõ trigger létrehozása
 
