@@ -60,3 +60,16 @@ CONSTRAINT check_brand_name CHECK ("brand" IN ('IBM', 'Microsoft', 'NVIDIA'))
 Miután elindult az alkalmazásszerver, tetszőleges böngészőben (Chrome, Firefox, stb...) ***localhost:8080***-on elérhető a kezdőoldal.  
 A megfelelő működéshez és adatbázishoz SQL Developerben a ***db_init.sql, check_year_function.sql, check_price_function.sql, check_year.sql, check_price.sql*** futtatása szükséges.  
 Az alkalmazásszerver leállítása consoleban ***CTRL+C*** paranccsal történik.  
+
+## Megjelenítés
+
+#### Főoldal
+![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/1.PNG)
+#### Új termék felvétele
+![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/2.PNG)
+#### Új termék felvételre került a listában
+![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/3.PNG)
+#### Helytelen adatok megadása
+![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/4.PNG)
+#### Az adatbázis által dobott hibaüzenet megjelenítése a logban
+![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/5.PNG)
