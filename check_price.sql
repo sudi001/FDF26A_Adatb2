@@ -5,12 +5,12 @@ CREATE OR REPLACE TRIGGER check_price_trigger
   FOR EACH ROW
 declare
 result NUMBER;
-newprice NUMBER;
+newprice varchar2(45);
 BEGIN
-  newprice := :new."price";
+  newprice := to_char(:new."price");
   result := check_price_function(newprice);
   
-  IF result <> 0
+  IF result = 0
   THEN
     DBMS_OUTPUT.PUT_LINE ('Az alábbi érték helyes: ' || newprice);
   ELSE 

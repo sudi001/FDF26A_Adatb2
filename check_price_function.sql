@@ -1,6 +1,6 @@
 CREATE OR REPLACE FUNCTION check_price_function
 (
-    price           IN  "product"."price"%TYPE
+    price varchar
 )
 RETURN INT
 deterministic
