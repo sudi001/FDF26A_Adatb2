@@ -1,6 +1,37 @@
 # Termék Nyilvántartó
 Az alkalmazás célja egy termék nyilvántartó készítése. A felhasználó termékek listáját és azok adatait képes megtekinteni egy táblázatban a főoladalon, ahonnan a szerkesztés, törlés, új hozzáadás műveletek érhetőek el számára. Az adott funkciókhoz nincs szükség bejelentkezésre.
 
+## Követelményanalízis
+
+A beadandó célja egy kis webes alkalmazás elkészítése szerveroldali technológiák segítségével. A feladat kritériumai:
+
+- A beadandó dolgozat témája szabadon választható. 
+- CRUD műveletek legyenek megvalósítva (Create Read Update Delete)  
+- Check, callcheck, insert legyenek kidolgozva  
+- Legyenek ellenőrzések az adatbázisban is, ne csak a programban. A hibákat az adatbázis is legyen képes megjeleníteni, ne csak a program.  
+- A program legyen átlátható, mappákban rendezett, minden kódrész legyen rendezett mappákban tárolva  
+- Kivételek kezelése és saját kivétel osztályok létrehozása  
+- Mappákban való almappák kezelése (model -> Managers, Records)  
+- Dokumentálás a folyamatokról  
+- Az adatbázis képes legyen teljes körűen kommunikálni a programmal.
+
+### Funkcionális követelmények
+
+- Főoldalon táblázatban az összes termék listázható legyen
+- Új termék hozzáadására lehetőség
+- Termék törlésére lehetőség
+- Termék szerkesztésére lehetőség
+- Csak a megadott paraméterek szerint lehessen, termékeket hozzáadni, illetve szerkeszteni
+- Hibaüzenet kiíratása kliens oldalon
+- Hibaüzenet kiíratása szerver oldalon
+- Főoldalra ugrásra gomb, hiba kiíratás után
+
+### Nem funkcionális követelmények
+
+-   Felhasználóbarát, ergonomikus elrendezés és kinézet.
+-   Gyors működés.
+-   Biztonságos működés: funkciókhoz való korlátozott hozzáférés.
+
 ## Áttekintés
 
 ### Termék adatai
