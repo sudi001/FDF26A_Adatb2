@@ -60,6 +60,10 @@ A beadandó célja egy kis webes alkalmazás elkészítése szerveroldali techno
 **index.html**: Főoldal, listázás megjelenítése. Innen érhető el minden egyéb funkció.  
 **new_product.html**: Új termék adatainak megadása és mentése érhető el az oldalon.  
 
+## Használati eset-modell
+
+![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/szekvencia_RFT.png)
+
 ## Adatbázis
 #### **Oracle adatbázis, SQL Developerben**
 
