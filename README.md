@@ -56,10 +56,26 @@ CONSTRAINT check_brand_name CHECK ("brand" IN ('IBM', 'Microsoft', 'NVIDIA'))
 ## Implementáció
 **Fejlesztői környezet: IntelliJ IDEA Ultimate, Apache NetBeans (Spring Boot Framework)**
 
+### Telepítési terv
+- Webes alkalmazás
+A webalkalmazás használatához csupán egy internetkapcsolattal rendelkező számítógépre vagy mobiltelefonra vagy szükségünk, melyen
+valamelyik böngésző, mint például: Google Chrome, Firefox, Safari megtalálható.
+
 **Használat:** Az alkalmazásszerver indításához a *pom.xml* könyvtárában, consoleban a következő parancs futtatása szükséges: ***mvn org.springframework.boot:spring-boot-maven-plugin:run***  
 Miután elindult az alkalmazásszerver, tetszőleges böngészőben (Chrome, Firefox, stb...) ***localhost:8080***-on elérhető a kezdőoldal.  
 A megfelelő működéshez és adatbázishoz SQL Developerben a ***db_init.sql, check_year_function.sql, check_price_function.sql, check_year.sql, check_price.sql*** futtatása szükséges.  
 Az alkalmazásszerver leállítása consoleban ***CTRL+C*** paranccsal történik.  
+
+### Használt technólógiák:
+- Trello - projekt szervezése, rendezése
+- HTML - A weboldal struktúrális vázát adja meg
+- CSS - A kinézethez manipulálására használatos
+- GitHub - Alkalmazás verzióinak követése
+- Git Extensions - Git UI
+- MVC Keretrendszer - Az alkalmazás kódjának strukturális keretrendszere
+- Java Spring Boot - Az alkalmazás keretrendszere
+- Maven - Alkalmazásszerver
+- Kódszerkesztők (VS, SubLime, Notepad++, stb.)
 
 ## Megjelenítés
 
