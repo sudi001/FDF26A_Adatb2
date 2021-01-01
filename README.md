@@ -73,3 +73,25 @@ Az alkalmazásszerver leállítása consoleban ***CTRL+C*** paranccsal történi
 ![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/4.PNG)
 #### Az adatbázis által dobott hibaüzenet megjelenítése a logban
 ![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/5.PNG)
+
+## Teszt
+
+#### Teszt jegyzőkönyv
+
+| Tesztelő: Majoros Dávid | 2020.12.30 15.54 | Böngésző: Google Chrome |
+|-------------------------|---------------------------|-------------------------|
+
+| Időpont | Teszt                | Eredmény | Megjegyzés                                                           |
+|:-------:|----------------------|----------|----------------------------------------------------------------------|
+| 15:55   | Kezdőlap megjelenítése    | Sikeres  | A tervezettek szerint megjelenítődik                    |
+| 15:58   | Új termék létrehozása          | Sikeres  | A tervezettek szerint működik                                        |
+| 15:59   | Termékek listázása| Sikeres  | A tervezettek szerint listázódnak az adatbázis elemei                 |
+| 16:01   | Szerkesztés gomb          | Sikeres  | A tervezettek szerint működik                                        |
+| 16:02   | Textbox kitöltése új terméknél       | Sikeres  | A tervezettek szerint csak megfelelő paraméterek bevihetőek                |
+| 16:04   | Mentés gomb          | Sikeres  | A tervezettek szerint működik                                        |
+| 16:05   | Tárgyak checkboxok   | Sikeres  | A tervezettek szerint kipipálható                                    |
+| 16:07   | Szerkesztés gomb          | Sikeres  | A tervezettek szerint működik                                        |
+| 16:08   | Hibás adat bevitele esetén hiba kiíratás     | Sikeres  | Rossz gyártó megadása esetén a frontend és az alkalmazás szerver is helyes hibát ír ki                            |
+| 16:09   | Hibás évszám bevitel esetén hiba kiíratás          | Sikeres  | A tervezettek szerint működik, az alkalmazás szerver kiíratja a hibásan bevitt értéket.                                      |
+| 16:10   | Adatbázis frissitése, adatok mentése esetén          | Sikeres  | Valós eredményt ad vissza                                            |
+| 16:12   | Hibás ár bevitele esetén hiba kiíratás        | Sikeres  | Front end hibaüzenetet dob. Az alkalmazás szerver visszaadja a hibásan bevitt értéket                                            |
