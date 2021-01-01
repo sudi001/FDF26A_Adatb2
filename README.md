@@ -57,9 +57,10 @@ CONSTRAINT check_brand_name CHECK ("brand" IN ('IBM', 'Microsoft', 'NVIDIA'))
 **Fejlesztői környezet: IntelliJ IDEA Ultimate, Apache NetBeans (Spring Boot Framework)**
 
 ### Telepítési terv
-- Webes alkalmazás
+Webes alkalmazás  
+
 A webalkalmazás használatához csupán egy internetkapcsolattal rendelkező számítógépre vagy mobiltelefonra vagy szükségünk, melyen
-valamelyik böngésző, mint például: Google Chrome, Firefox, Safari megtalálható.
+valamelyik böngésző, mint például: ***Google Chrome, Firefox, Safari*** megtalálható.
 
 **Használat:** Az alkalmazásszerver indításához a *pom.xml* könyvtárában, consoleban a következő parancs futtatása szükséges: ***mvn org.springframework.boot:spring-boot-maven-plugin:run***  
 Miután elindult az alkalmazásszerver, tetszőleges böngészőben (Chrome, Firefox, stb...) ***localhost:8080***-on elérhető a kezdőoldal.  
