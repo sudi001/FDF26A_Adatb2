@@ -89,7 +89,7 @@ Az alkalmazásszerver leállítása consoleban ***CTRL+C*** paranccsal történi
 | 16:01   | Szerkesztés gomb          | Sikeres  | A tervezettek szerint működik                                        |
 | 16:02   | Textbox kitöltése új terméknél       | Sikeres  | A tervezettek szerint csak megfelelő paraméterek bevihetőek                |
 | 16:04   | Mentés gomb          | Sikeres  | A tervezettek szerint működik                                        |
-| 16:05   | Tárgyak checkboxok   | Sikeres  | A tervezettek szerint kipipálható                                    |
+| 16:05   | Hiba kiíratás esetén főmenü gomb  | Sikeres  | A tervezettek szerint visszavisz a főmenübe                                    |
 | 16:07   | Szerkesztés gomb          | Sikeres  | A tervezettek szerint működik                                        |
 | 16:08   | Hibás adat bevitele esetén hiba kiíratás     | Sikeres  | Rossz gyártó megadása esetén a frontend és az alkalmazás szerver is helyes hibát ír ki                            |
 | 16:09   | Hibás évszám bevitel esetén hiba kiíratás          | Sikeres  | A tervezettek szerint működik, az alkalmazás szerver kiíratja a hibásan bevitt értéket.                                      |
