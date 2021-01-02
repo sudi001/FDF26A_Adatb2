@@ -1,5 +1,5 @@
 # Termék Nyilvántartó
-Az alkalmazás célja egy termék nyilvántartó készítése. A felhasználó termékek listáját és azok adatait képes megtekinteni egy táblázatban a főoladalon, ahonnan a szerkesztés, törlés, új hozzáadás műveletek érhetőek el számára. Az adott funkciókhoz nincs szükség bejelentkezésre.
+Az alkalmazás célja egy termék nyilvántartó készítése. A felhasználó termékek listáját és azok adatait képes megtekinteni egy táblázatban a főoldalon, ahonnan a szerkesztés, törlés, új hozzáadás műveletek érhetőek el számára. Az adott funkciókhoz nincs szükség bejelentkezésre.
 
 ## Követelményanalízis
 
