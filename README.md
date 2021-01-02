@@ -100,6 +100,10 @@ CONSTRAINT check_brand_name CHECK ("brand" IN ('IBM', 'Microsoft', 'NVIDIA'))
 ***check_price_function:*** Ellenőrzi a bevitt árat, hogy 0-val kezdődik-e vagy negatív szám-e, ebben az esetben más visszatérési értéket ad.  
 ***check_year_function:*** Ellenőrzi a bevitt évet, hogy hogy 0-val kezdődik-e vagy negatív szám-e és hogy 2020-től nagyobb-e, ebben az esetben más visszatérési értéket ad.  
 
+### Adatbázis modell
+
+![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/adatbazis_rft.PNG)
+
 ## Implementáció
 **Fejlesztői környezet: IntelliJ IDEA Ultimate, Apache NetBeans (Spring Boot Framework)**
 
@@ -160,7 +164,7 @@ Az alkalmazásszerver leállítása consoleban ***CTRL+C*** paranccsal történi
 | 16:10   | Adatbázis frissitése, adatok mentése esetén          | Sikeres  | Valós eredményt ad vissza                                            |
 | 16:12   | Hibás ár bevitele esetén hiba kiíratás        | Sikeres  | Front end hibaüzenetet dob. Az alkalmazás szerver visszaadja a hibásan bevitt értéket                                            |
 
-### Fogalomtár
+## Fogalomtár
 **Fogalmak:**
 - **bug:** hiba a program futása során.
 - **backend:** egy adott rendszer alsóbb, tényleges feldolgozást végző rétege.
