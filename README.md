@@ -44,6 +44,10 @@ Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni.
 -   Gyors működés.
 -   Biztonságos működés: funkciókhoz való korlátozott hozzáférés.
 
+## Használati eset-modell
+
+![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/szekvencia_RFT.png)
+
 ## Áttekintés
 
 ### Termék adatai
@@ -71,10 +75,6 @@ Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni.
 **errorpage.html**: Amennyiben rossz paraméter lett megadva, hibaüzenet kiírása, hiba részletes leírása az alkalmazásszerver logjában tekinthető meg, főoldal gomb elérhető. Amennyiben kivétel dobás történt, konkrét hibaüzenet kiírása az oldalon.  
 **index.html**: Főoldal, listázás megjelenítése. Innen érhető el minden egyéb funkció.  
 **new_product.html**: Új termék adatainak megadása és mentése érhető el az oldalon.  
-
-## Használati eset-modell
-
-![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/szekvencia_RFT.png)
 
 ## Adatbázis
 #### **Oracle adatbázis, SQL Developerben**
