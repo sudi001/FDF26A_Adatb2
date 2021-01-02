@@ -19,13 +19,13 @@ A beadandó célja egy kis webes alkalmazás elkészítése szerveroldali techno
 Kivitelező: Kérem jellemezze, mire lenne szüksége!  
 Megrendelő: Elgondolkodtam azon, hogy szükségem lenne egy olyan weboldalra, ahol a termékeinket listázni tudnám.
 Kivitelező: Miért szeretné ezt?  
-Megrendelő: Egy olyan alkalmazásra vágyom, ahol a termékeket nyilván tudnám tartani. 
-Kivitelező: Szeretné, hogy különböző szerepkörök legyenek, mint például admin és felhasználó?
-Megrendelő: Nem, a raktárosok számára szeretném ezt az alkalmazást, bejelentkezés nélkül lehessen használni, hogy gördülékenyebben menjen a munka egy átlátható táblázatban.
-Kivitelező: Mindezt egy weboldalon lenne a legcélszerűbb megvalósítani, ahol minél inkább letisztult, átlátható főoldalon szereplő táblázatban tudná vezetni a nyilvántartást.
-Megrendelő: Az egyik legfőbb igényem lenne az, hogy a szerkesztés, törlés, új hozzáadás műveletek elérhetőek legyenek az ergonomikus működés mellett.A leggyorsabban használható táblázatot szeretném a raktárosaimnak. 
-Megrendelő: Hálás lennék, ha minden eddigi tapaszatalai szerint készítené el számomra az alkalmazást.
-Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni. 
+Megrendelő: Egy olyan alkalmazásra vágyom, ahol a termékeket nyilván tudnám tartani.  
+Kivitelező: Szeretné, hogy különböző szerepkörök legyenek, mint például admin és felhasználó?  
+Megrendelő: Nem, a raktárosok számára szeretném ezt az alkalmazást, bejelentkezés nélkül lehessen használni, hogy gördülékenyebben menjen a munka egy átlátható táblázatban.  
+Kivitelező: Mindezt egy weboldalon lenne a legcélszerűbb megvalósítani, ahol minél inkább letisztult, átlátható főoldalon szereplő táblázatban tudná vezetni a nyilvántartást.  
+Megrendelő: Az egyik legfőbb igényem lenne az, hogy a szerkesztés, törlés, új hozzáadás műveletek elérhetőek legyenek az ergonomikus működés mellett.A leggyorsabban használható táblázatot szeretném a raktárosaimnak.  
+Megrendelő: Hálás lennék, ha minden eddigi tapaszatalai szerint készítené el számomra az alkalmazást.  
+Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni.  
 
 ### Funkcionális követelmények
 
