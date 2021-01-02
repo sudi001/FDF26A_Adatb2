@@ -32,6 +32,18 @@ A beadandó célja egy kis webes alkalmazás elkészítése szerveroldali techno
 -   Gyors működés.
 -   Biztonságos működés: funkciókhoz való korlátozott hozzáférés.
 
+### Riportok
+Kivitelező: Kérem jellemezze, mire lenne szüksége!  
+Megrendelő: Elgondolkodtam azon, hogy szükségem lenne egy olyan weboldalra, ahol a termékeinket listázni tudnám.
+Kivitelező: Miért szeretné ezt?  
+Megrendelő: Egy olyan alkalmazásra vágyom, ahol a termékeket nyilván tudnám tartani. 
+Kivitelező: Szeretné, hogy különböző szerepkörök legyenek, mint például admin és felhasználó?
+Megrendelő: Nem, a raktárosok számára szeretném ezt az alkalmazást, bejelentkezés nélkül lehessen használni, hogy gördülékenyebben menjen a munka egy átlátható táblázatban.
+Kivitelező: Mindezt egy weboldalon lenne a legcélszerűbb megvalósítani, ahol minél inkább letisztult, átlátható főoldalon szereplő táblázatban tudná vezetni a nyilvántartást.
+Megrendelő: Az egyik legfőbb igényem lenne az, hogy a szerkesztés, törlés, új hozzáadás műveletek elérhetőek legyenek az ergonomikus működés mellett.A leggyorsabban használható táblázatot szeretném a raktárosaimnak. 
+Megrendelő: Hálás lennék, ha minden eddigi tapaszatalai szerint készítené el számomra az alkalmazást.
+Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni. 
+
 ## Áttekintés
 
 ### Termék adatai
@@ -147,3 +159,13 @@ Az alkalmazásszerver leállítása consoleban ***CTRL+C*** paranccsal történi
 | 16:09   | Hibás évszám bevitel esetén hiba kiíratás          | Sikeres  | A tervezettek szerint működik, az alkalmazás szerver kiíratja a hibásan bevitt értéket.                                      |
 | 16:10   | Adatbázis frissitése, adatok mentése esetén          | Sikeres  | Valós eredményt ad vissza                                            |
 | 16:12   | Hibás ár bevitele esetén hiba kiíratás        | Sikeres  | Front end hibaüzenetet dob. Az alkalmazás szerver visszaadja a hibásan bevitt értéket                                            |
+
+### Fogalomtár
+**Fogalmak:**
+- **bug:** hiba a program futása során.
+- **backend:** egy adott rendszer alsóbb, tényleges feldolgozást végző rétege.
+- **frontend:** a front-end réteg feladata a rendszerből kijutó adatok prezentálása, illetve a bejövő adatok fogadása.
+- **CRUD műveletek:** hozzáadás, olvasás, frissítés és törlés műveletek.  
+- **kliens:** olyan számítógép vagy azon futó progam, amelyik hozzáfér egy (távoli) szolgálatáshoz
+- **szerver:** az informatikában olyan számítógépet vagy szoftvert jelent, ami más számítógépek számára a rajta tárolt vagy előállított adatok felhasználását, a szerver hardver erőforrásainak kihasználását, illetve más szolgáltatások elérését teszi lehetővé.
+- **framework:**  számítógép-programozásban az alkalmazásfejlesztési keretrendszer egy szoftverfejlesztési keretrendszert tartalmaz, amit szoftverfejlesztők használnak, hogy létrehozzák egy operációs rendszer, egy webalkalmazás vagy egy alkalmazás standard struktúráját.
