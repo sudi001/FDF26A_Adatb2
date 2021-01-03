@@ -1,4 +1,5 @@
 # Termék Nyilvántartó
+## Áttekintés
 Az alkalmazás célja egy termék nyilvántartó készítése. A felhasználó termékek listáját és azok adatait képes megtekinteni egy táblázatban a főoldalon, ahonnan a szerkesztés, törlés, új hozzáadás műveletek érhetőek el számára. Az adott funkciókhoz nincs szükség bejelentkezésre.
 
 ## Követelményanalízis
@@ -48,7 +49,7 @@ Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni.
 
 ![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/szekvencia_RFT.png)
 
-## Áttekintés
+## Fejlesztői Dokumentáció
 
 ### Termék adatai
 **Azonosítószám** (Long id): Megadja az adott termék egyedi azonosítószámát  
