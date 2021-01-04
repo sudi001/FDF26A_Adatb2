@@ -51,6 +51,8 @@ Kivitelező: Rendben, a legjobb tudásunk szerint fogunk cselekedni.
 
 ## Fejlesztői Dokumentáció
 
+**Fejlesztői környezet: IntelliJ IDEA Ultimate, Apache NetBeans (Spring Boot Framework)**
+
 ### Termék adatai
 **Azonosítószám** (Long id): Megadja az adott termék egyedi azonosítószámát  
 **Név** (String name): Termék neve  
@@ -105,10 +107,7 @@ CONSTRAINT check_brand_name CHECK ("brand" IN ('IBM', 'Microsoft', 'NVIDIA'))
 
 ![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/adatbazis_rft.PNG)
 
-## Implementáció
-**Fejlesztői környezet: IntelliJ IDEA Ultimate, Apache NetBeans (Spring Boot Framework)**
-
-### Telepítési terv
+## Telepítési terv
 Webes alkalmazás  
 
 A webalkalmazás használatához csupán egy internetkapcsolattal rendelkező számítógépre vagy mobiltelefonra vagy szükségünk, melyen
@@ -119,7 +118,7 @@ Miután elindult az alkalmazásszerver, tetszőleges böngészőben (Chrome, Fir
 A megfelelő működéshez és adatbázishoz SQL Developerben a ***db_init.sql, check_year_function.sql, check_price_function.sql, check_year.sql, check_price.sql*** futtatása szükséges.  
 Az alkalmazásszerver leállítása consoleban ***CTRL+C*** paranccsal történik.  
 
-### Használt technólógiák:
+## Használt technólógiák:
 - Trello - projekt szervezése, rendezése
 - HTML - A weboldal struktúrális vázát adja meg
 - CSS - A kinézethez manipulálására használatos
@@ -144,6 +143,21 @@ Az alkalmazásszerver leállítása consoleban ***CTRL+C*** paranccsal történi
 ![alt text](https://github.com/sudi001/FDF26A_Adatb2/blob/main/5.PNG)
 
 ## Teszt
+
+#### Tesztterv
+Az alábbi **tesztesetek** vizsgálata szükséges:
+- Kezdőlap megjelenítése
+- Új termék létrehozása
+- Termékek listázása
+- Szerkesztés gomb
+- Textbox kitöltése új terméknél
+- Mentés gomb
+- Hiba kiíratás esetén főmenü gomb
+- Szerkesztés gomb
+- Hibás adat bevitele esetén hiba kiíratás
+- Hibás évszám bevitel esetén hiba kiíratás
+- Adatbázis frissitése, adatok mentése esetén
+- Hibás ár bevitele esetén hiba kiíratás
 
 #### Teszt jegyzőkönyv
 
